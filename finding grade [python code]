@@ -1,0 +1,19 @@
+#grade
+
+eng=int(input("enter the mark:"))
+tam=int(input("enter the mark:"))
+mat=int(input("enter the mark:"))
+cs=int(input("enter the mark:"))
+phy=int(input("enter the mark:"))
+mark=int(((eng+tam+mat+cs+phy)/500)*100)
+print(mark)
+if mark>90:
+    print("a grade")
+if 80<=mark<90:
+    print("b grade")
+if 70<=mark<80:
+    print("c grade")
+elif 40<=mark<70:
+    print("d grade")
+else:
+    print("fail")
