@@ -1,0 +1,10 @@
+#linear search
+
+library=["books","newspapers","comics","magazines","kids book"]
+st=input("name the element to search:")
+for i in range(len(library)):
+    if st==library[i]:
+        print("the element is found at:",i)
+        break
+if st!=library[i]:
+        print("the element is out of list")
