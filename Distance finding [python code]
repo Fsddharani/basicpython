@@ -1,0 +1,13 @@
+#distance between two points
+
+x1=int(input("enter the number x1:"))
+
+x2=int(input("enter the number x2:"))
+
+y1=int(input("enter the number y1:"))
+
+y2=int(input("enter the number y2:"))
+
+distance=((x2-x1)**2+(y2-y1)**2)**0.5
+
+print("the distance between the two points are:",distance)
