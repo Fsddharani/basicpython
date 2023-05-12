@@ -1,0 +1,23 @@
+#list operations
+library=["books","comics","Newspapers","Magazines","Ebooks","department books"]
+library1=["kids book","engineering books"]
+print("index of ebooks is:",library.index('Ebooks'))
+print("the element in the given index is:",library[5])
+library.append("story books")
+print(library)
+library.remove("comics")
+print(library)
+library.clear()
+print(library)
+library.pop()
+print(library)
+library.insert(3,"ponniyin selvan naval")
+print(library)
+print(len(library))
+library.sort()
+print(library)
+library.reverse()
+print(library)
+print(library[1:5])
+library.extend(library1)
+print(library)
