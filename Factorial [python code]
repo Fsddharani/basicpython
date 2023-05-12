@@ -1,0 +1,17 @@
+#factorial of given number
+
+n=int(input("enter the number to find factorial:"))
+
+def fact(n):
+
+    if n==1:
+
+        return 1
+
+    else:
+
+        return n* fact(n-1)
+
+    
+
+print("the factorial value is:",fact(n))
