@@ -1,0 +1,9 @@
+#sqrt of given number:
+
+import math
+
+a=int(input("enter the number to find square root:"))
+
+value=int(math.sqrt(a))
+
+print("the square root of the given number is:",value)
