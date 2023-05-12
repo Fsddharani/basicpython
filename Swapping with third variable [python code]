@@ -1,0 +1,21 @@
+#exchanging the two values with using the third variable
+
+a=12
+
+b=1
+
+print("the value of a before exchanging:",a)
+
+print("the value of b before exchanging:",b)
+
+#to exchange the value of a,b
+
+temp=a
+
+a=b
+
+b=temp
+
+print("the value of a after exchanging:",a)
+
+print("the value of b after exchanging:",b)
