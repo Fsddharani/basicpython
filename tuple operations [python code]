@@ -1,0 +1,10 @@
+#tuple
+    
+tuple1=("library","hostel","playground","volley ball")
+a=list(tuple1)
+print(a)
+a.append("books")
+print(a)
+b=tuple(a)
+
+print(b)
