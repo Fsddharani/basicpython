@@ -1,0 +1,13 @@
+#number pattern odd
+
+k=1
+
+for i in range (5):
+
+    for j in range(i+1):
+
+        print(k,end=" ")
+
+    print()
+
+    k+=2
