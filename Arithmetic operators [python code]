@@ -1,0 +1,29 @@
+#arithmetic operations:
+
+a=int(input("enter the number:"  ))
+
+b=int(input("enter the number:"))
+
+add=a+b
+
+print("the addtion is:",add)
+
+sub=a-b
+
+print("the sub is:",sub)
+
+mul=a*b
+
+print("the mul is:",mul)
+
+div=a/b
+
+print("the div is:",div)
+
+flodiv=a//b
+
+print("the flodiv is:",flodiv)
+
+mod=a%b
+
+print("the mod is:",mod)
